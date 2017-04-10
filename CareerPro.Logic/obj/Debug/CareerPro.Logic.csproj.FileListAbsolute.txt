@@ -1,0 +1,9 @@
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.Logic.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.Logic.pdb
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.DataAccess.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.DataObjects.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.DataAccess.pdb
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\bin\Debug\CareerPro.DataObjects.pdb
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\obj\Debug\CareerPro.Logic.csprojResolveAssemblyReference.cache
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\obj\Debug\CareerPro.Logic.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.Logic\obj\Debug\CareerPro.Logic.pdb

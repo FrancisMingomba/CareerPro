@@ -264,9 +264,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CareerPro.Domain\CareerPro.Domain.csproj">
-      <Project>{9dbdc1ae-e18f-49c9-9f94-9c569798f707}</Project>
-      <Name>CareerPro.Domain</Name>
+    <ProjectReference Include="..\CareerPro.DataObjects\CareerPro.DataObjects.csproj">
+      <Project>{b93949ab-6ba8-4e4f-9c24-d65d11a5ed5f}</Project>
+      <Name>CareerPro.DataObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CareerPro.Logic\CareerPro.Logic.csproj">
+      <Project>{3fcc75ae-fd37-45c3-9ced-3e3a8beef9fe}</Project>
+      <Name>CareerPro.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

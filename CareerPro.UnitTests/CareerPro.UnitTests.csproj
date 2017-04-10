@@ -113,9 +113,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CareerPro.Domain\CareerPro.Domain.csproj">
-      <Project>{9dbdc1ae-e18f-49c9-9f94-9c569798f707}</Project>
-      <Name>CareerPro.Domain</Name>
+    <ProjectReference Include="..\CareerPro.DataAccess\CareerPro.DataAccess.csproj">
+      <Project>{36df2c74-5d9d-4e68-9843-b01702f5b44d}</Project>
+      <Name>CareerPro.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CareerPro.Logic\CareerPro.Logic.csproj">
+      <Project>{3fcc75ae-fd37-45c3-9ced-3e3a8beef9fe}</Project>
+      <Name>CareerPro.Logic</Name>
     </ProjectReference>
     <ProjectReference Include="..\CareerPro.Web\CareerPro.Web.csproj">
       <Project>{aa79cde6-870e-4f37-b0b0-8cc2791db9de}</Project>

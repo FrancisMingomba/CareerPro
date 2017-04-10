@@ -2,7 +2,6 @@ C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\obj\Debug\Car
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.UnitTests.dll.config
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.UnitTests.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.UnitTests.pdb
-C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Domain.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Web.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Castle.Core.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -27,7 +26,6 @@ C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Ent
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Microsoft.Owin.Security.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Domain.pdb
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Web.pdb
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Castle.Core.xml
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Moq.xml
@@ -51,3 +49,7 @@ C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Mic
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\obj\Debug\CareerPro.UnitTests.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\obj\Debug\CareerPro.UnitTests.pdb
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.DataAccess.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Logic.dll
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.DataAccess.pdb
+C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.UnitTests\bin\Debug\CareerPro.Logic.pdb
