@@ -3,3 +3,7 @@ C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataObjects\bin\Debug\C
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.csprojResolveAssemblyReference.cache
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\bin\Debug\CareerPro.DataObjects.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\bin\Debug\CareerPro.DataObjects.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.pdb

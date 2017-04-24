@@ -5,3 +5,10 @@ C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataAccess\bin\Debug\Ca
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.dll
 C:\Users\mingo\Desktop\Final Project\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\bin\Debug\CareerPro.DataAccess.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\bin\Debug\CareerPro.DataAccess.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\bin\Debug\CareerPro.DataObjects.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\bin\Debug\CareerPro.DataObjects.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataAccess\obj\Debug\CareerPro.DataAccess.pdb

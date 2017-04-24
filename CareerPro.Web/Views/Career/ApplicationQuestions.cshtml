@@ -1,0 +1,25 @@
+﻿@using CareerPro.DataObjects;
+@model ApplicationComposite
+
+<h2>Application Questions</h2>
+
+<h1>Application for: @Model.RegisterViewModel.JobName</h1>
+
+@{
+    ViewBag.Title = "Home Page"; ViewBag.Title = "ApplicationQuestions";
+}
+
+@*Form Facing Prospective Employees*@
+@using (Html.BeginForm("Submit", "Career", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    foreach ( var a in Model.Questions )
+    {
+        @Html.Partial("_EmpQuestions", a)
+    }
+}
+
+
+
+

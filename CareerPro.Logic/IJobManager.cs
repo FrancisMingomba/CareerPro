@@ -9,13 +9,13 @@ namespace CareerPro.Logic
 {
     public interface IJobManager
     {
-        public List<Question> Questions { get; }
+        List<Question> Questions { get; }
 
-        public List<JobPosition> JobPositions { get; }
+        List<JobPosition> JobPositions { get; }
 
-        public List<Question> RetrieveQuestionsByJobId(int id);
+        List<Question> RetrieveQuestionsByJobId(int id);
 
-        public List<JobPosition> RetrieveJobPositions();
+        List<JobPosition> RetrieveJobPositions();
 
     }
 }
