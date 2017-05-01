@@ -191,6 +191,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Insfrastructure\NinjectDependencyResolver.cs" />
+    <Compile Include="Migrations\201705011915245_Initial Migration.cs" />
+    <Compile Include="Migrations\201705011915245_Initial Migration.Designer.cs">
+      <DependentUpon>201705011915245_Initial Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -277,6 +282,11 @@
       <Project>{3fcc75ae-fd37-45c3-9ced-3e3a8beef9fe}</Project>
       <Name>CareerPro.Logic</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705011915245_Initial Migration.resx">
+      <DependentUpon>201705011915245_Initial Migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

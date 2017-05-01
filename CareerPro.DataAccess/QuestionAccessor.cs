@@ -16,6 +16,7 @@ namespace CareerPro.DataAccess
     {
         public static List<Question> RetrieveQuestions()
         {
+
             var questions = new List<Question>();
             var conn = DBConnection.GetConnection();
             var cmdText = @"sp_retrieve_questions";
