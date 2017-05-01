@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CareerPro.DataObjects
 {
-    public class RegisterViewModel
+    public class CareerRegisterViewModel
     {
         public int Id { get; set; }
 

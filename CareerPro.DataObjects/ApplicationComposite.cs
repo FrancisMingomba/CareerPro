@@ -8,7 +8,7 @@ namespace CareerPro.DataObjects
 {
     public class ApplicationComposite
     {
-        public RegisterViewModel RegisterViewModel { get; set; }
+        public CareerRegisterViewModel RegisterViewModel { get; set; }
 
         public IEnumerable<Question> Questions { get; set; }
 

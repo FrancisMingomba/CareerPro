@@ -189,3 +189,5 @@ C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\bin\Microsoft.Owin.Security.Micro
 C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\obj\Debug\CareerPro.Web.csprojResolveAssemblyReference.cache
 C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\obj\Debug\CareerPro.Web.dll
 C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\obj\Debug\CareerPro.Web.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\bin\CareerPro.DataAccess.dll
+C:\Users\mingo\Desktop\CareerPro\CareerPro.Web\bin\CareerPro.DataAccess.pdb

@@ -26,12 +26,33 @@ namespace CareerPro.Web.Controllers
         {
             return View(jobs);
         }
+        
 
+        /// <summary>
+        /// Renders job details to user
+        /// 
+        /// </summary>
+        /// <param name="jobId"></param>
+        /// <returns></returns>
+        public ActionResult JobDetail(int? jobId)
+        {
+            var job = jobs.FirstOrDefault(x => x.Id == jobId);
+
+            return View(job);
+
+        }
+
+        /// <summary>
+        /// Renders main application for personal information
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public ActionResult Apply(int id)
         {
             var job = jobs.FirstOrDefault(x => x.Id == id);
 
-            var r = new RegisterViewModel
+            var r = new CareerRegisterViewModel
             {
                 JobPosition = id,
                 JobName = job.Name
@@ -39,6 +60,8 @@ namespace CareerPro.Web.Controllers
 
             return View(r);
         }
+
+
 
         public ActionResult About()
         {

@@ -1,0 +1,12 @@
+﻿@model CareerPro.DataObjects.JobPosition
+
+@{
+    ViewBag.Title = "JobDetail";
+}
+
+<h1>@Model.Name</h1>
+<hr/>
+<p>@Model.Description</p>
+@Html.ActionLink("Apply", "Apply", "Home", new { id = Model.Id }, null)
+@Html.ActionLink("Go back", "Index", "Home")
+

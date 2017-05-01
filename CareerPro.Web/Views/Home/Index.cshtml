@@ -3,7 +3,7 @@
 
 @foreach ( var a in Model)
 {
-    @Html.ActionLink(a.Name, "Apply", "Home", new { id = a.Id }, null)  
+    @Html.ActionLink(a.Name, "JobDetail", "Home", new { jobId = a.Id }, null)  
     <br />
     <br />
 }
