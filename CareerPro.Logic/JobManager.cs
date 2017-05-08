@@ -4,29 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CareerPro.DataObjects;
+using CareerPro.DataAccess;
 
 namespace CareerPro.Logic
 {
     public class JobManager : IJobManager
     {
-        public List<Question> Questions
+        public List<Job> RetrieveJobs()
         {
-            get { throw new NotImplementedException(); }
-        }
-
-        public List<JobPosition> JobPositions
-        {
-            get { throw new NotImplementedException(); }
-        }
-
-        public List<Question> RetrieveQuestionsByJobId(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<JobPosition> RetrieveJobPositions()
-        {
-            throw new NotImplementedException();
+            return JobAccessor.RetrieveJobs();
         }
     }
 }

@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicantManager.cs" />
     <Compile Include="IJobManager.cs" />
     <Compile Include="IQuestionManager.cs" />
     <Compile Include="JobManager.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CareerPro.DataObjects
 {
-    public class JobPosition
+    public class Job
     {
         public int Id { get; set; }
 

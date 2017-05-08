@@ -5,6 +5,7 @@
 <div class="form-group">
     <label class="col-md-2 control-label">@Model.QxnString</label>
     <div class="col-md-10">
+        @Html.HiddenFor(m => m.Id)
         @Html.TextBoxFor(b => b.TextAnswer, new { @class = "form-control" })
         @Html.ValidationMessageFor(b => b.TextAnswer, "", new { @class = "text-danger" })
     </div>

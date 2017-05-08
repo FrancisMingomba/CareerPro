@@ -12,5 +12,7 @@ namespace CareerPro.DataObjects
 
         public IEnumerable<Question> Questions { get; set; }
 
+        public Job Job { get; set; }
+
     }
 }

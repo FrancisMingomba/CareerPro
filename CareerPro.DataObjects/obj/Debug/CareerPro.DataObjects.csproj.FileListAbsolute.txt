@@ -7,3 +7,4 @@ C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\bin\Debug\CareerPro.DataO
 C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\bin\Debug\CareerPro.DataObjects.pdb
 C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.dll
 C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.pdb
+C:\Users\mingo\Desktop\CareerPro\CareerPro.DataObjects\obj\Debug\CareerPro.DataObjects.csprojResolveAssemblyReference.cache

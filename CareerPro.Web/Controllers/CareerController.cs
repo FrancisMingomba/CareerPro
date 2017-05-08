@@ -11,15 +11,7 @@ namespace CareerPro.Web.Controllers
     public class CareerController : Controller
     {
         IQuestionManager _questionManger = new QuestionManager();
-        //List<Question> questions = new List<Question>{
-        //        new Question { Id = 1, QxnString = "What is favorite dog", TextAnswer = ""},
-        //        new Question { Id = 2, QxnString = "What is your deepest interest", TextAnswer = "" },
-        //        new Question { Id = 3, QxnString = "What is your motivation", TextAnswer = ""},
-        //        new Question { Id = 4, QxnString = "What is your complexion", TextAnswer = "" },
-        //        new Question { Id = 5, QxnString = "What is your nature", TextAnswer = "" }
-        //    };
-
-
+        ApplicantManager _applicantManager = new ApplicantManager();
 
         // GET: CareerPro
         public ActionResult Index()
@@ -35,12 +27,14 @@ namespace CareerPro.Web.Controllers
         /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult ApplicationQuestions(IEnumerable<Question> questions)
+        public ActionResult ApplicationQuestions(ApplicationComposite compositeData)
         {
             //store informati
 
+            return View("Success");
 
-            return View();
+
+            //return View();
         } 
 
         [HttpPost]
@@ -52,31 +46,37 @@ namespace CareerPro.Web.Controllers
             }
 
             //stores information to database
+            bool success = _applicantManager.CreateApplicant(model);
 
             //stores in identity table and logs you in
 
-            //based on success, user is routed to custom questions
-            //if (success) == go to home/applicationsQuestions
-            //if (fail) == return current View
+            
+            if (success)
+            {
+                var previousFormData = new CareerRegisterViewModel { JobPosition = 1, JobName = model.JobName };
 
-            var compositeModel = new ApplicationComposite();
+                var compositeModel = new ApplicationComposite();
+                compositeModel.RegisterViewModel = previousFormData;
 
+                try
+                {
+                    compositeModel.Questions = _questionManger.RetrieveQuestions();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    throw;
+                }
+
+                return View("ApplicationQuestions", compositeModel); 
+
+            }
+            else
+            {
+                return View("Error");
+            }
             //setting job id and job name from previous form
-            var previousFormData = new CareerRegisterViewModel { JobPosition = 1, JobName = model.JobName };
-
-            compositeModel.RegisterViewModel = previousFormData;
-
-            try
-            {
-                compositeModel.Questions = _questionManger.RetrieveQuestions();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                throw;
-            }
-
-            return View("ApplicationQuestions", compositeModel); 
+            
         }
     }
 }

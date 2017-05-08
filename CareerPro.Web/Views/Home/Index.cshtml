@@ -1,9 +1,9 @@
 ﻿@using CareerPro.DataObjects;
-@model IEnumerable<JobPosition>
-
+@model IEnumerable<Job>
+<br/><br/>
 @foreach ( var a in Model)
 {
-    @Html.ActionLink(a.Name, "JobDetail", "Home", new { jobId = a.Id }, null)  
+    @Html.ActionLink(a.Name, "JobDetail", "Home", new { jobId = a.Id }, new { @class = "btn btn-default" } )  
     <br />
     <br />
 }

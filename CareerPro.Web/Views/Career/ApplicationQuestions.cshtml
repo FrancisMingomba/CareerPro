@@ -10,7 +10,7 @@
 }
 
 @*Form Facing Prospective Employees*@
-@using (Html.BeginForm("Submit", "Career", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+@using (Html.BeginForm("ApplicationQuestions", "Career", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
 
@@ -18,6 +18,9 @@
     {
         @Html.Partial("_EmpQuestions", a)
     }
+    
+    @Html.HiddenFor( m => m.RegisterViewModel.Id)
+    @Html.HiddenFor(m => m.Job.Id)
     
     <input type="submit" name="submit" value="Submit Application"/>
 }
